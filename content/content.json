@@ -283,4 +283,86 @@
         "level": "Intermediate"
     },
     "description": "<p>If you have a big data set with many variables and want to go super fancy, i.e., dig for correlations among your variables, scatterplot matrices are the way to go. These, using <code>splom()</code> and other cool stuff like heatmaps are available in the <code>lattice</code> package, which is often faster and easier to use with multidimensional data. This tutorial has got you covered (even if you're not into genetics). But remember: correlation != causation. </p>"
+},{
+    "chapter": "Interactive data visualization",
+    "title": "Geting started with Shiny: A web application framework for R",
+    "permalink": "http://shiny.rstudio.com",
+    "info": {
+        "authors": [{
+            "name": "RStudio",
+            "url": "http://www.rstudio.com"
+        }],
+        "type": "Tutorial",
+        "time": "2 - 3 hours",
+        "level": "Intermediate"
+    },
+    "description": "<p>Shiny is RStudio's solution for making R plots interactive and publishing them on the web. Shiny apps always consist of a user interface script (<code>ui.R</code>) and a server script (<code>server.R</code>). Shiny apps can be run locally from within RStudio or hosted online. RStudio provides a hosting service on <a href=\"http://shinyapps.io\">shinyapps.io</a>, but you can also host them on your own, using the free and open source <a href=\"https://github.com/rstudio/shiny-server\">Shiny Server</a> software.</p>"
+},{
+    "chapter": "Interactive data visualization",
+    "title": "<code>rCharts</code>: Interactive Javascript visualizations with familiar libraries",
+    "permalink": "http://rcharts.io",
+    "info": {
+        "authors": [{
+            "name": "Ramnath Vaidyanathan",
+            "url": "https://twitter.com/ramnath_vaidya"
+        }],
+        "type": "Package",
+        "time": "&ndash;",
+        "level": "Intermediate"
+    },
+    "description": "<p>This package allows you to create interactive charts in a <code>lattice</code>-style manner from within R. You can choose from a variety of Javascript visualization libraries such as <a href=\"http://www.highcharts.com/\">HighCharts</a>, <a href=\"http://nvd3.org/\">NVD3</a>, or even <a href=\"http://leafletjs.com/\">LeafletJS</a>, all using the same interface. The charts can then be published via a variety of options: As a Gist (see this <a href=\"http://rcharts.io/viewer/?e32bb4ea1f33b5fa70c8#.VSjuk8u42ll\">example</a>), inside a <a href=\"http://shiny.rstudio.com/\">Shiny application</a> (see <a href=\"http://rcharts.io/nytinteractive/\">this example</a> on replicating a NYT graphic), or <a href=\"http://stackoverflow.com/questions/17168464/2-knitr-r-markdown-rstudio-issues-highcharts-and-morris-js/17176191#17176191\">as a good old HTML file</a>, using <code>knit2html</code> and RMarkdown.</p>"
+},{
+    "chapter": "Interactive data visualization",
+    "title": "<code>htmlwidgets</code>: A package/framework for developing R bindings to Javascript libraries",
+    "permalink": "http://www.htmlwidgets.org/",
+    "info": {
+        "authors": [{
+            "name": "Ramnath Vaidyanathan",
+            "url": "https://twitter.com/ramnath_vaidya"
+        },{
+            "name": "Joe Cheng",
+            "url": "https://twitter.com/jcheng"
+        },{
+            "name": "JJ Allaire",
+            "url": "https://github.com/jjallaire"
+        },{
+            "name": "Yihui Xie",
+            "url": "https://twitter.com/xieyihui"
+        },{
+            "name": "Kenton Russell",
+            "url": "https://twitter.com/timelyportfolio"
+        }],
+        "type": "Package",
+        "time": "&ndash;",
+        "level": "Advanced"
+    },
+    "description": "<p><code>htmlwidgets</code> is rather a framework than a package like <code>rCharts</code>. If you already know Javascript you can use <code>htmlwidgets</code> to create R bindings, so called \"widgets\", to your favourite library. There already exist <a href=\"http://www.htmlwidgets.org/showcase_leaflet.html\">a range of bindings</a>. Widgets are built so that they can be used at the R console (a functionality which <code>rCharts</code> lacks, as far as I know) and embedded into RMarkdown (and thus into a plain HTML file) or a Shiny web app. There even exists a <a href=\"http://www.buildingwidgets.com\">blog</a> to promote building widgets, with lots of how-to's.</p>"
+}, {
+    "chapter": "Reproducibility",
+    "title": "Writing reproducible reports with markdown, <code>knitr</code> and pandoc",
+    "permalink": "http://nicercode.github.io/guides/reports/",
+    "info": {
+        "authors": [{
+            "name": "Nice R Code",
+            "url": "http://nicercode.github.io"
+        }],
+        "type": "Blog post",
+        "time": "20 - 40 minutes",
+        "level": "Beginner"
+    },
+    "description": "<p>Today, making a data journalism project's methodology public is still rather the exception than the rule. If you want to share with your readers what exactly you did with your data, and even allow them to reproduce what you did, R is the ideal setting. Using something called RMarkdown and a package called <code>knitr</code>, you can create nice looking HTML files from your scripts, showing both your (annotated) R code and its output &ndash; which can then be published on your website, on a service such as <a href=\"http://rpubs.com\">RPubs</a> or on GitHub. This blog post gives a nice introduction in the toolstack needed to perform reproducible data journalism with R. If you only want to know how to create HTML files, you can skip the last part about pandoc.</p>"
+}, {
+    "chapter": "Reproducibility",
+    "title": "RPubs",
+    "permalink": "http://rpubs.com/about/getting-started",
+    "info": {
+        "authors": [{
+            "name": "RPubs (RStudio)",
+            "url": "http://rpubs.com/"
+        }],
+        "type": "Service",
+        "time": "&ndash;",
+        "level": "Beginner"
+    },
+    "description": "<p>RPubs, by RStudio, is an ideal service to publish your knitted RMarkdown files &ndash; helpful if you only want to publish the markdown, but not your actual code files. From within RStudio, you can easily publish the output HTML file to RPubs.com and then share it with the world. All you need to get started is to create an account on RPubs.com. </p>"
 }]
