@@ -1,7 +1,7 @@
 # .Rddj
 ## Resources for doing data journalism with R. 
 
-This is a curated list of online resources for learning R in the context of data journalism. The live version is available under [grssnbchr.github.io/rddj](http://grssnbchr.github.io/rddj).
+This is a curated list of online resources for learning R in the context of data journalism. The live version is available under [rddj.info](http://rddj.info).
 
 ## Contribute
 
