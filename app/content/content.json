@@ -357,8 +357,8 @@
     "permalink": "http://rpubs.com/about/getting-started",
     "info": {
         "authors": [{
-            "name": "RPubs (RStudio)",
-            "url": "http://rpubs.com/"
+            "name": "RStudio",
+            "url": "http://rstudio.com/"
         }],
         "type": "Service",
         "time": "&ndash;",
