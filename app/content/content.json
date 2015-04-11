@@ -1,0 +1,368 @@
+[{
+    "chapter": "RStudio",
+    "title": "Getting started with RStudio (Safari Books Online)",
+    "permalink": "https://www.safaribooksonline.com/library/view/getting-started-with/9781449314798/ch01.html",
+    "info": {
+        "authors": [{
+            "name": "Safari Books Online",
+            "url": "http://www.safaribooksonline.com"
+        }],
+        "type": "Online book chapter",
+        "time": "30 - 60 minutes",
+        "level": "Beginner"
+    },
+    "description": "RStudio is the R user's Integrated Development Environment (IDE) of choice, there is no doubt about that. Installing it is really straightforward, just go to <a href=\"http://www.rstudio.org/download/\">http://www.rstudio.org/download/</a> and download your OS version. If you need more information, this freely available book chapter by Safari Books Online gives a really thorough introduction into what RStudio actually is, why you should use it, and how it integrates with R."
+}, {
+    "chapter": "Syntax and basic R programming",
+    "title": "Try R (CodeSchool)",
+    "permalink": "http://tryr.codeschool.com",
+    "info": {
+        "authors": [{
+            "name": "CodeSchool",
+            "url": "http://www.codeschool.com"
+        }],
+        "type": "Interactive course",
+        "time": "2 - 4 hours",
+        "level": "Beginner"
+    },
+    "description": "CodeSchool offers a free course for learning R that let's you solve little quizzes in an interactive shell. I especially like the fact that your inputs are actually evaluated in a real R environment, so you can playfully try out just about anything. In this course, the focus lies on \"native\" methods and packages, i.e., you'll learn the very basics of R without going into other, higher-level packages such as <code>dplyr</code>."
+}, {
+    "chapter": "Syntax and basic R programming",
+    "title": "R Programming (Coursera)",
+    "permalink": "https://www.coursera.org/course/rprog",
+    "info": {
+        "authors": [{
+            "name": "Jeff Leek",
+            "url": "https://www.coursera.org/instructor/~315"
+        }, {
+            "name": "Roger D. Peng",
+            "url": "https://www.coursera.org/instructor/rdpeng"
+        }, {
+            "name": "Brian Caffo",
+            "url": "https://www.coursera.org/instructor/~47"
+
+        }],
+        "type": "Course",
+        "time": "12 - 16 hours",
+        "level": "Intermediate"
+    },
+    "description": "<p>This course, which is part of the <a href=\"https://www.coursera.org/specialization/jhudatascience/1?utm_medium=courseDescripSidebar\">Coursera Data Science Specialization</a>, features instruction videos and requires you to solve quizzes and complete programming assignments. The first part of the course (first two weeks) focuses on basic R data types and programming concepts, while the second part (week 3 and 4) goes into more advanced concepts such as debugging and profiling, which might be a bit overkill for you (which is why I set the level to \"Intermediate\").</p><p>Nonetheless, participating will reward you greatly as the course really forces you to not just listen but also program stuff on your own. By the way: The Data Science Specialization makes use of R in all of its courses, so there might be some other interesting stuff to learn waiting for you.</p>"
+}, {
+    "chapter": "Syntax and basic R programming",
+    "title": "R Programming (Swirl)",
+    "permalink": "http://swirlstats.com/students.html",
+    "info": {
+        "authors": [{
+            "name": "Swirl",
+            "url": "http://swirlstats.com/"
+        }],
+        "type": "Interactive course",
+        "time": "2 - 4 hours",
+        "level": "Beginner"
+    },
+    "description": "Swirl is another great way to interactively learn the basics of R. It runs from within R and is installed just like any other R package. There exists <a href=\"https://github.com/swirldev/swirl_courses#swirl-courses\">a range of Swirl courses</a> which cover different aspects of the data journalism process. For getting started, the \"R Programming\" course is recommended (it somehow follows the first part of the corresponding Coursera course, and Swirl was actually created with the help of that course's authors). Hack away!"
+}, {
+    "chapter": "Syntax and basic R programming",
+    "title": "Cookbook for R",
+    "permalink": "http://www.cookbook-r.com/",
+    "info": {
+        "authors": [{
+            "name": "Winston Chang",
+            "url": "http://www.cookbook-r.com/"
+        }],
+        "type": "Online book chapter",
+        "time": "2 - 4 hours",
+        "level": "Intermediate"
+    },
+    "description": "\"Cookbook for R\" is a problem-solution-style, free e-book. For learning the basics of R, I would recommend trying out chapters 1 through 5. Apart from that, I often use it to look up quick recipes for working with <code>ggplot2</code> (chapter 8)."
+}, {
+    "chapter": "Collecting Data (from the Web)",
+    "title": "Scraping HTML tables with <code>XML</code>",
+    "permalink": "http://giventhedata.blogspot.ch/2012/08/r-and-web-for-beginners-part-iii.html",
+    "info": {
+        "authors": [{
+            "name": "Ulrich Matter",
+            "url": "https://wwz.unibas.ch/en/people/profile/person/matter/"
+        }],
+        "type": "Blog post",
+        "time": "10 - 20 minutes",
+        "level": "Intermediate"
+    },
+    "description": "<p>In this short tutorial, it is shown how the <code>XML</code> package and its nifty <code>readHTMLTable()</code> function can be used to download and parse a rather large table of MPs' expenses in the UK. Piece of cake!</p>"
+}, {
+    "chapter": "Collecting Data (from the Web)",
+    "title": "Scraping static web pages with <code>rvest</code>",
+    "permalink": "https://github.com/hadley/rvest",
+    "info": {
+        "authors": [{
+            "name": "Hadley Wickham",
+            "url": "http://twitter.com/hadleywickham"
+        }],
+        "type": "Package",
+        "time": "&ndash;",
+        "level": "Intermediate"
+    },
+    "description": "<p>A rather new package developed by Hadley Wickham makes scraping and parsing of static HTML <em>really</em> easy. Instead of having to loop through countless levels of HTML/XML code as you would with the <code>XML</code> package, you can query data by using good ol' CSS selectors &ndash; wait, you're not a CSS ninja? <a href=\"http://selectorgadget.com/\">There's a handy helper for that, too.</a></p><p><code>rvest</code>, like most packages by Hadley, makes use of <code>magrittr</code> sytax, <a href=\"http://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html\"> which greatly improves the readability and maintainability of your code</a>.</p>"
+}, {
+    "chapter": "Collecting Data (from the Web)",
+    "title": "Using R to download and parse JSON: an example using data from an open data portal",
+    "permalink": "http://zevross.com/blog/2015/02/12/using-r-to-download-and-parse-json-an-example-using-data-from-an-open-data-portal/",
+    "info": {
+        "authors": [{
+            "name": "Zev Ross",
+            "url": "http://twitter.com/zevross"
+        }],
+        "type": "Blog post",
+        "time": "20 - 40 minutes",
+        "level": "Intermediate"
+    },
+    "description": "<p>This well-structured tutorial uses the  <code>RJSONIO</code> package to download and parse JSON from a website. It makes extensive use of <code>sapply</code> and, thus, functional programming to navigate through the hierarchy of the downloaded JSON, so you should be at least a bit familiar with these concepts. In the end, the parsed data are used to build a nice little map using the popular <code>rgdal</code> and <code>ggplot2</code> packages.</p>"
+}, {
+    "chapter": "Collecting Data (from the Web)",
+    "title": "Scraping dynamic web pages with <code>RSelenium</code>",
+    "permalink": "https://github.com/ropensci/RSelenium",
+    "info": {
+        "authors": [{
+            "name": "John D. Harrison",
+            "url": "https://github.com/johndharrison"
+        }, {
+            "name": "rOpenSci",
+            "url": "http://ropensci.org"
+        }],
+        "type": "Package",
+        "time": "&ndash;",
+        "level": "Advanced"
+    },
+    "description": "<p>Scraping static web content such as tables and the like is pretty straightforward. However, when content is dynamically loaded via Javascript/AJAX, packages such as <code>XML</code> or <code>rvest</code> won't bring you far. <code>RSelenium</code> is an R binding for <a href=\"http://docs.seleniumhq.org\">Selenium</a>, which itself is actually a test framework for web applications. Using <code>RSelenium</code> it is possible to programmatically navigate a web browser, execute Javascript code, and wait for the content you need to load &ndash; which can then be downloaded and further processed in R.</p></p>As far as I know, there currently exists no tutorial on using <code>RSelenium</code> explicitly for scraping, but <a href=\"http://cran.r-project.org/web/packages/RSelenium/vignettes/\">this vignette</a> and <a href=\"http://cran.r-project.org/web/packages/RSelenium/vignettes/OCRUG-webinar.html\">this webinar</a> might help you get started.</p>"
+}, {
+    "chapter": "Collecting Data (from the Web)",
+    "title": "Scraping Javascript generated data with R",
+    "permalink": "http://blog.datacamp.com/scraping-javascript-generated-data-with-r/",
+    "info": {
+        "authors": [{
+            "name": "DataCamp",
+            "url": "https://www.datacamp.com"
+        }],
+        "type": "Blog post",
+        "time": "10 - 20 minutes",
+        "level": "Advanced"
+    },
+    "description": "<p>In this blog post, the guys from DataCamp want to scrape HTML tables from a website. The problem is that these tables are only loaded and generated via Javascript, and not statically. In order to get the data nonetheless, they call an external Javascript file and execute it via <a href=\"http://phantomjs.org/\">PhantomJS</a>, which is basically a WebKit browser without a graphical user interface. The Javascript file loads the website and writes its content into a static HTML file. The rest is done in R: The local HTML file is parsed with the well-known <code>rvest</code> and with the help of some regular expressions.</p><p>I guess the <em>tl;dr</em> of this tutorial is that you can call external scripts from within R using the <code>system()</code> function &ndash; no need to use <code>RSelenium</code> in this case.</p>"
+}, {
+    "chapter": "Data cleaning and manipulation",
+    "title": "Data tidying",
+    "permalink": "http://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html",
+    "info": {
+        "authors": [{
+            "name": "Hadley Wickham",
+            "url": "http://twitter.com/hadleywickham"
+        }],
+        "type": "Vignette",
+        "time": "40 - 60 minutes",
+        "level": "Beginner"
+    },
+    "description": "<p>One can consider this and <a href=\"http://vita.had.co.nz/papers/tidy-data.html\">the associated journal paper</a> the Holy Bible of data janitors. In this vignette, Hadley Wickham introduces a way of how data should be structured and formatted in order to be properly analyzed. For tidying messy data, he proposes the use of two packages developed by him, <code>dplyr</code> and <code>tidyr</code>. The latter may be used to easily \"reshape\" data, which is one of the most common data manipulations in R.</p>"
+}, {
+    "chapter": "Data cleaning and manipulation",
+    "title": "A new data processing workflow for R",
+    "permalink": "http://zevross.com/blog/2015/01/13/a-new-data-processing-workflow-for-r-dplyr-magrittr-tidyr-ggplot2/",
+    "info": {
+        "authors": [{
+            "name": "Zev Ross",
+            "url": "http://twitter.com/zevross"
+        }],
+        "type": "Blog post",
+        "time": "20 - 40 minutes",
+        "level": "Intermediate"
+    },
+    "description": "<p>\"Thanks to some great new packages like <code>dplyr</code>, <code>tidyr</code> and <code>magrittr</code>, I've been able to streamline code and speed up processing\" says Zev Ross in this very helpful tutorial which processes data from <a href=\"https://cloud.google.com/bigquery/what-is-bigquery\">Google's BigQuery</a>. Indeed, just forget functions such as <code>aggregate()</code> or <code>merge()</code> and endless, nested <code>lapply()</code> calls &ndash; with the herein presented workflow, everything becomes so much easier and faster. The tutorial ends with some demonstration of <code>ggplot2</code>'s capabilities, which you can skip if you're only interested in data manipulation as such.</p>"
+}, {
+    "chapter": "Data cleaning and manipulation",
+    "title": "Data wrangling cheat sheet",
+    "permalink": "http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf",
+    "info": {
+        "authors": [{
+            "name": "RStudio",
+            "url": "http://www.rstudio.com"
+        }, {
+            "name": "Hadley Wickham",
+            "url": "http://twitter.com/hadleywickham"
+        }],
+        "type": "Cheat sheet",
+        "time": "&ndash;",
+        "level": "Beginner"
+    },
+    "description": "<p>Hadley Wickham's <code>tidyr</code> and the much more feature-rich <code>dplyr</code> are some sort of a declarative mini language within R for data tidying and general data processing &ndash; similar to SQL. With this cheat sheet, you'll always know the difference between <code>select()</code> and <code>filter()</code>.</p>"
+}, {
+    "chapter": "Data cleaning and manipulation",
+    "title": "Do more with dates and times with <code>lubridate</code>",
+    "permalink": "http://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html",
+    "info": {
+        "authors": [{
+            "name": "Garrett Grolemund",
+            "url": "https://twitter.com/StatGarrett"
+        }, {
+            "name": "Hadley Wickham",
+            "url": "http://twitter.com/hadleywickham"
+        }],
+        "type": "Package/Vignette",
+        "time": "&ndash;",
+        "level": "Beginner"
+    },
+    "description": "<p>At least for me, working with dates and times in R has always been a hassle. For example, I still don't get the actual difference between <code>as.Date()</code>, <code>as.POSIXlt()</code> and <code>as.POSIXct()</code>. <code>lubridate</code> might still require some basic knowledge of date/time types in R, but makes working with, for example, time intervals much more intuitive. Give it a try.</p>"
+}, {
+    "chapter": "Exploratory data analysis and plotting",
+    "title": "Getting started with charts",
+    "permalink": "http://flowingdata.com/2012/12/17/getting-started-with-charts-in-r/",
+    "info": {
+        "authors": [{
+            "name": "Nathan Yau (FlowingData)",
+            "url": "http://twitter.com/flowingdata"
+        }],
+        "type": "Blog post",
+        "time": "20 - 40 minutes",
+        "level": "Beginner"
+    },
+    "description": "<p>This tutorial is about the <code>base</code> plotting system. It introduces scatterplot matrices, boxplots, and gridded chart displays, among others. In my opinion, you can skip the <code>base</code> plotting system altogether and go straight to <code>ggplot2</code>, but it certainly doesn't hurt to know a bit about it.</p>"
+}, {
+    "chapter": "Exploratory data analysis and plotting",
+    "title": "Data visualization cheat sheet",
+    "permalink": "http://www.rstudio.com/wp-content/uploads/2015/04/ggplot2-cheatsheet.pdf",
+    "info": {
+        "authors": [{
+            "name": "RStudio",
+            "url": "http://www.rstudio.com"
+        }, {
+            "name": "Hadley Wickham",
+            "url": "http://twitter.com/hadleywickham"
+        }],
+        "type": "Cheat sheet",
+        "time": "&ndash;",
+        "level": "Beginner"
+    },
+    "description": "<p>It's the same as with <code>dplyr</code> and <code>tidyr</code> &ndash; going with the Hadley-Wickham-Flow makes your life easier. <code>ggplot2</code> is one of his oldest packages and one of his most used.<code>ggplot2</code> is based on something called \"The Grammar of Graphics\" and allows you to construct your plots layer by layer, variable by variable &ndash; very intuitive! Nonetheless, it might look a bit complicated at first with its \"aesthetics\", \"geoms\", and \"coordinate systems\", but learning it is worth the effort. The most difficult part, in my opinion, is remembering all the different function calls and their arguments &ndash; this cheat sheet will prevent you from going crazy.</p>"
+}, {
+    "chapter": "Exploratory data analysis and plotting",
+    "title": "Beautiful plotting in R: A <code>ggplot2</code> cheatsheet",
+    "permalink": "http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/#a-default-plot-in-ggplot2",
+    "info": {
+        "authors": [{
+            "name": "Zev Ross",
+            "url": "http://twitter.com/zevross"
+        }],
+        "type": "Blog post",
+        "time": "1 - 2 hours",
+        "level": "Beginner"
+    },
+    "description": "<p>Another very useful package by Hadley Wickham (who else?) is <code>ggplot2</code>, which facilitates exploratory data analysis (EDA) and plotting by a great deal. Using air pollution data, Zev Ross gives a good introduction into this package, starting with a basic one-line-plot and gradually adding more features and customizations.</p>"
+}, {
+    "chapter": "Exploratory data analysis and plotting",
+    "title": "Cookbook for R (chapter \"Graphs\")",
+    "permalink": "http://www.cookbook-r.com/Graphs/",
+    "info": {
+        "authors": [{
+            "name": "Winston Chang",
+            "url": "http://www.cookbook-r.com/"
+        }],
+        "type": "Online book chapter",
+        "time": "1 - 3 hours",
+        "level": "Beginner"
+    },
+    "description": "<p>Getting the nitty-gritties of plotting (e.g., axes, labels, legends, etc.) right can be frustrating and tedious, even with <code>ggplot2</code>. This free book chapter has always helped me in looking up quick recipes for special cases &ndash; and for everything else, there's <a href=\"http://stackoverflow.com/questions/tagged/ggplot2\">StackOverflow</a>.</p>"
+}, {
+    "chapter": "Exploratory data analysis and plotting",
+    "title": "<code>lattice</code> graphics (for scatterplot matrices and heatmaps)",
+    "permalink": "http://www.stat.ubc.ca/~jenny/STAT545A/block91_latticeGraphics.html",
+    "info": {
+        "authors": [{
+            "name": "Jennifer Bryan",
+            "url": "https://twitter.com/JennyBryan"
+        }],
+        "type": "Tutorial",
+        "time": "1 - 2 hours",
+        "level": "Intermediate"
+    },
+    "description": "<p>If you have a big data set with many variables and want to go super fancy, i.e., dig for correlations among your variables, scatterplot matrices are the way to go. These, using <code>splom()</code> and other cool stuff like heatmaps are available in the <code>lattice</code> package, which is often faster and easier to use with multidimensional data. This tutorial has got you covered (even if you're not into genetics). But remember: correlation != causation. </p>"
+},{
+    "chapter": "Interactive data visualization",
+    "title": "Geting started with Shiny: A web application framework for R",
+    "permalink": "http://shiny.rstudio.com",
+    "info": {
+        "authors": [{
+            "name": "RStudio",
+            "url": "http://www.rstudio.com"
+        }],
+        "type": "Tutorial",
+        "time": "2 - 3 hours",
+        "level": "Intermediate"
+    },
+    "description": "<p>Shiny is RStudio's solution for making R plots interactive and publishing them on the web. Shiny apps always consist of a user interface script (<code>ui.R</code>) and a server script (<code>server.R</code>). Shiny apps can be run locally from within RStudio or hosted online. RStudio provides a hosting service on <a href=\"http://shinyapps.io\">shinyapps.io</a>, but you can also host them on your own, using the free and open source <a href=\"https://github.com/rstudio/shiny-server\">Shiny Server</a> software.</p>"
+},{
+    "chapter": "Interactive data visualization",
+    "title": "<code>rCharts</code>: Interactive Javascript visualizations with familiar libraries",
+    "permalink": "http://rcharts.io",
+    "info": {
+        "authors": [{
+            "name": "Ramnath Vaidyanathan",
+            "url": "https://twitter.com/ramnath_vaidya"
+        }],
+        "type": "Package",
+        "time": "&ndash;",
+        "level": "Intermediate"
+    },
+    "description": "<p>This package allows you to create interactive charts in a <code>lattice</code>-style manner from within R. You can choose from a variety of Javascript visualization libraries such as <a href=\"http://www.highcharts.com/\">HighCharts</a>, <a href=\"http://nvd3.org/\">NVD3</a>, or even <a href=\"http://leafletjs.com/\">LeafletJS</a>, all using the same interface. The charts can then be published via a variety of options: As a Gist (see this <a href=\"http://rcharts.io/viewer/?e32bb4ea1f33b5fa70c8#.VSjuk8u42ll\">example</a>), inside a <a href=\"http://shiny.rstudio.com/\">Shiny application</a> (see <a href=\"http://rcharts.io/nytinteractive/\">this example</a> on replicating a NYT graphic), or <a href=\"http://stackoverflow.com/questions/17168464/2-knitr-r-markdown-rstudio-issues-highcharts-and-morris-js/17176191#17176191\">as a good old HTML file</a>, using <code>knit2html</code> and RMarkdown.</p>"
+},{
+    "chapter": "Interactive data visualization",
+    "title": "<code>htmlwidgets</code>: A package/framework for developing R bindings to Javascript libraries",
+    "permalink": "http://www.htmlwidgets.org/",
+    "info": {
+        "authors": [{
+            "name": "Ramnath Vaidyanathan",
+            "url": "https://twitter.com/ramnath_vaidya"
+        },{
+            "name": "Joe Cheng",
+            "url": "https://twitter.com/jcheng"
+        },{
+            "name": "JJ Allaire",
+            "url": "https://github.com/jjallaire"
+        },{
+            "name": "Yihui Xie",
+            "url": "https://twitter.com/xieyihui"
+        },{
+            "name": "Kenton Russell",
+            "url": "https://twitter.com/timelyportfolio"
+        }],
+        "type": "Package",
+        "time": "&ndash;",
+        "level": "Advanced"
+    },
+    "description": "<p><code>htmlwidgets</code> is rather a framework than a package like <code>rCharts</code>. If you already know Javascript you can use <code>htmlwidgets</code> to create R bindings, so called \"widgets\", to your favourite library. There already exist <a href=\"http://www.htmlwidgets.org/showcase_leaflet.html\">a range of bindings</a>. Widgets are built so that they can be used at the R console (a functionality which <code>rCharts</code> lacks, as far as I know) and embedded into RMarkdown (and thus into a plain HTML file) or a Shiny web app. There even exists a <a href=\"http://www.buildingwidgets.com\">blog</a> to promote building widgets, with lots of how-to's.</p>"
+}, {
+    "chapter": "Reproducibility",
+    "title": "Writing reproducible reports with markdown, <code>knitr</code> and pandoc",
+    "permalink": "http://nicercode.github.io/guides/reports/",
+    "info": {
+        "authors": [{
+            "name": "Nice R Code",
+            "url": "http://nicercode.github.io"
+        }],
+        "type": "Blog post",
+        "time": "20 - 40 minutes",
+        "level": "Beginner"
+    },
+    "description": "<p>Today, making a data journalism project's methodology public is still rather the exception than the rule. If you want to share with your readers what exactly you did with your data, and even allow them to reproduce what you did, R is the ideal setting. Using something called RMarkdown and a package called <code>knitr</code>, you can create nice looking HTML files from your scripts, showing both your (annotated) R code and its output &ndash; which can then be published on your website, on a service such as <a href=\"http://rpubs.com\">RPubs</a> or on GitHub. This blog post gives a nice introduction in the toolstack needed to perform reproducible data journalism with R. If you only want to know how to create HTML files, you can skip the last part about pandoc.</p>"
+}, {
+    "chapter": "Reproducibility",
+    "title": "RPubs",
+    "permalink": "http://rpubs.com/about/getting-started",
+    "info": {
+        "authors": [{
+            "name": "RPubs (RStudio)",
+            "url": "http://rpubs.com/"
+        }],
+        "type": "Service",
+        "time": "&ndash;",
+        "level": "Beginner"
+    },
+    "description": "<p>RPubs, by RStudio, is an ideal service to publish your knitted RMarkdown files &ndash; helpful if you only want to publish the markdown, but not your actual code files. From within RStudio, you can easily publish the output HTML file to RPubs.com and then share it with the world. All you need to get started is to create an account on RPubs.com. </p>"
+}]

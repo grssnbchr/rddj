@@ -1,0 +1,223 @@
+commit e6f2241ee85281961c9f344d62f4bfb486d17108
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sat Apr 11 13:05:02 2015 +0200
+
+    added last chapter
+
+commit cb430cac627f6a5d3844445df7e893d53eb826a7
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sat Apr 11 13:04:43 2015 +0200
+
+    changed introductory text
+
+commit 2aa058cac7f90244a5e4ac19a0eebe2789b4d552
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sat Apr 11 11:26:43 2015 +0200
+
+    added 6th chapter
+
+commit a722303d9b7dc8dbc102449f930a5edd42f7836b
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sat Apr 11 11:26:12 2015 +0200
+
+    added keywords, description, changed introductory text
+
+commit 90937e9f7c8451c57bf5aa780e4c9421b3167db0
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sat Apr 11 10:23:48 2015 +0200
+
+    finished the first 5 chapters
+
+commit c1ef054b4d08f4f9cd5dcce4494807bf94837628
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sat Apr 11 10:23:33 2015 +0200
+
+    changed introductory text
+
+commit 4760abca8304ed81774b43b09df453e057f0fd9e
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sun Apr 5 15:15:19 2015 +0200
+
+    replaced GA with piwik
+
+commit bf381d22746261fa4d3f5a7234ae011b97be805c
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sun Apr 5 15:03:18 2015 +0200
+
+    changed twitter url
+
+commit 295692ea8570c94632033af37ea8bc9f71dc9329
+Merge: 6fbc0d3 472e972
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sun Apr 5 14:46:27 2015 +0200
+
+    Merge branch 'master' of https://github.com/grssnbchr/rddj
+
+commit 6fbc0d3ac70812b3536ff7f20d386b1d369151a1
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sun Apr 5 14:45:53 2015 +0200
+
+    added CNAME and modified Gruntfile to copy it over to dist upon build
+
+commit 472e9728eade9d92438cbb1dc227dfedb64c95aa
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sat Apr 4 13:25:25 2015 +0200
+
+    Update README.md
+
+commit e5cc76b9560979a533e1a8439e6d268fef65a039
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sat Apr 4 13:24:31 2015 +0200
+
+    updated README
+
+commit 46daeb6d976a4848641eac12d64d598175e6a672
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sat Apr 4 13:08:05 2015 +0200
+
+    finished getting data chapter
+
+commit 41303cb5f3ae9108d1b17860c84a8bfb4007b983
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sat Apr 4 13:07:50 2015 +0200
+
+    minor style changes
+
+commit 5560736a55a31d29bbcb9a459af4d2ecc4abd034
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sat Apr 4 13:07:28 2015 +0200
+
+    added twitter button
+
+commit 605d522f508829232128f812db07981fdb3dce2c
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sat Apr 4 01:23:52 2015 +0200
+
+    added first two chapters to content.json
+
+commit b412ff9c4236f210030f381343ad84f110d54c08
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sat Apr 4 01:19:28 2015 +0200
+
+    removed link icon from article titles
+
+commit fb76d63cae148a37091337af54c44a55b114407f
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sat Apr 4 01:18:50 2015 +0200
+
+    changed introductory text
+
+commit 53b10be5cd9ce256cf09f66eae253994162becd1
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Fri Apr 3 12:57:42 2015 +0200
+
+    bugfix: slugs now work correctly
+
+commit 7e198cbf5c0f96807683d0c6fa8792d2fb3bf4be
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Fri Apr 3 12:39:05 2015 +0200
+
+    added ability to add authors without a URL
+
+commit b248de500432ecb8cc1e40ea8a329ef35f408005
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Fri Apr 3 12:33:53 2015 +0200
+
+    added new data category: level
+
+commit 6239951a4d89ecf7b55735c753dbef93d6c9c4e0
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Fri Apr 3 11:09:55 2015 +0200
+
+    fixed package.json
+
+commit d244ca98d4094dd198da33949a247434b4246cea
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Fri Apr 3 11:06:01 2015 +0200
+
+    changed favicon
+
+commit f0d90f86c5df6b42a8b2baa2256fa71d2fc03d0b
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Fri Apr 3 11:04:54 2015 +0200
+
+    added grunt gh-pages task
+
+commit e408534d80aab03cc2901b150eb13cb67548267e
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Mon Mar 30 22:52:15 2015 +0200
+
+    added grunt-github-pages task, trying this out now...
+
+commit 34a2141126c069240a495b08e329bdc5957cec81
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Mon Mar 30 14:10:41 2015 +0200
+
+    added fontawesome fonts to app folder, modified gruntfile to build them
+
+commit d2639bba65d1437202cf5e12756ea2001da79a28
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Mon Mar 30 10:19:54 2015 +0200
+
+    changed favicon, added gh-pages grunt task
+
+commit 822dfc0bbdf3f11aad411744a151ead75ef358ef
+Merge: 80d5061 bdf4c4a
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Mon Mar 30 10:10:26 2015 +0200
+
+    Merge branch 'master' of https://github.com/grssnbchr/rddj
+
+commit bdf4c4a7ed16dd3644886b2a738305826aa7e254
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Mon Mar 30 10:09:20 2015 +0200
+
+    Initial commit
+
+commit 80d5061e0f12c7e891185fd20aced37f4546e87a
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Mon Mar 30 09:56:19 2015 +0200
+
+    added intro text and toc, some more minor UI improvements
+
+commit 0001a09bbfae0b54fcb7a3e8027bfe5e2e6f450b
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sun Mar 29 19:55:07 2015 +0200
+
+    added mock data, implemented dynamic rendering of content in d3
+
+commit 1dab8b7611944450928ddf7e6105328983427e4a
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sun Mar 29 19:09:25 2015 +0200
+
+    modified styles
+
+commit 6788a02446c1d087fc748b1e6c79f5665375f472
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sun Mar 29 18:55:45 2015 +0200
+
+    defined styles
+
+commit c7fe7a0ca95031b0d42ec19565a376f45e0775f6
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sun Mar 29 16:42:32 2015 +0200
+
+    added google font 'Bitter'
+
+commit be70adfbdc3a010722b040c51717a8d678afed7e
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sun Mar 29 16:35:50 2015 +0200
+
+    add content folder and content.json
+
+commit 7c3cd06473bee5cdba6c92b7e79abaf51b2b7453
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sun Mar 29 16:33:14 2015 +0200
+
+    added d3 and fontawesome dependencies
+
+commit 0fb753268baa714bb6daff08c4ab375c003ed18e
+Author: Timo Grossenbacher <wnstnsmth@yahoo.com>
+Date:   Sun Mar 29 16:31:15 2015 +0200
+
+    initial commit
