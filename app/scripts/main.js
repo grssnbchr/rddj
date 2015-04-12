@@ -35,9 +35,8 @@ $(function() {
             })
             .attr('aria-hidden', true)
             .attr('class', 'anchor')
-            .text('#');
-        /*.append('i')
-        .attr('class', 'fa fa-link');*/
+            .text('#')
+
         sections.select('h1')
             .append('span')
             .text(function(d) {
@@ -52,6 +51,10 @@ $(function() {
         var article = articles.enter()
             .append('article');
         article.append('h1')
+            .append('i')
+            .attr('class', 'fa fa-link');
+        article.select('h1')
+            .append('span')
             .html(function(d) {
                 return '<a href="' + d.permalink + '">' + d.title + '</a>';
             });
