@@ -75,6 +75,20 @@
         "level": "Intermediate"
     },
     "description": "\"Cookbook for R\" is a problem-solution-style, free e-book. For learning the basics of R, I would recommend trying out chapters 1 through 5. Apart from that, I often use it to look up quick recipes for working with <code>ggplot2</code> (chapter 8)."
+},{
+    "chapter": "Syntax and basic R programming",
+    "title": "Beginner's guide to R",
+    "permalink": "http://www.computerworld.com/article/2497143/business-intelligence-beginner-s-guide-to-r-introduction.html",
+    "info": {
+        "authors": [{
+            "name": "Sharon Machlis",
+            "url": "http://twitter.com/sharon000"
+        }],
+        "type": "Tutorial",
+        "time": "3 - 5 hours",
+        "level": "Beginner"
+    },
+    "description": "This guide covers not only syntax but basically everything from getting data into R to basic data visualization with the <code>base</code> and <code>ggplot2</code> packages. It also features a very impressive list of further R resources at the end &ndash; definitely worth checking out."
 }, {
     "chapter": "Collecting Data (from the Web)",
     "title": "Scraping HTML tables with <code>XML</code>",
@@ -337,7 +351,21 @@
         "level": "Advanced"
     },
     "description": "<p><code>htmlwidgets</code> is rather a framework than a package like <code>rCharts</code>. If you already know Javascript you can use <code>htmlwidgets</code> to create R bindings, so called \"widgets\", to your favourite library. There already exist <a href=\"http://www.htmlwidgets.org/showcase_leaflet.html\">a range of bindings</a>. Widgets are built so that they can be used at the R console (a functionality which <code>rCharts</code> lacks, as far as I know) and embedded into RMarkdown (and thus into a plain HTML file) or a Shiny web app. There even exists a <a href=\"http://www.buildingwidgets.com\">blog</a> to promote building widgets, with lots of how-to's.</p>"
-}, {
+},{
+    "chapter": "Publication-quality graphics",
+    "title": "How to layout and design an infographic",
+    "permalink": "http://alstatr.blogspot.ch/2015/02/r-how-to-layout-and-design-infographic.html",
+    "info": {
+        "authors": [{
+            "name": "Al-Ahmadgaid Asaad",
+            "url": "https://twitter.com/alstated"
+        }],
+        "type": "Blog post",
+        "time": "60 - 90 minutes",
+        "level": "Intermediate"
+    },
+    "description": "<p>Creating really nice looking (info-)graphics in R? Yes, it is possible. In this impressive blog post, the author uses <code>ggplot2</code> and custom fonts (with the <code>extrafont</code> package) to produce an infographic that nobody would have guessed originates from R &ndash; and all this without using Illustrator or any other vector drawing software. </p>"
+},{
     "chapter": "Reproducibility",
     "title": "Writing reproducible reports with markdown, <code>knitr</code> and pandoc",
     "permalink": "http://nicercode.github.io/guides/reports/",
@@ -365,4 +393,21 @@
         "level": "Beginner"
     },
     "description": "<p>RPubs, by RStudio, is an ideal service to publish your knitted RMarkdown files &ndash; helpful if you only want to publish the markdown, but not your actual code files. From within RStudio, you can easily publish the output HTML file to RPubs.com and then share it with the world. All you need to get started is to create an account on RPubs.com. </p>"
+}, {
+    "chapter": "Examples of using R in (data) journalism",
+    "title": "Election night at Aftonbladet, 2014",
+    "permalink": "https://github.com/jensfinnas/Election-night-at-Aftonbladet",
+    "info": {
+        "authors": [{
+            "name": "Jens Finnäs",
+            "url": "https://twitter.com/jensfinnas"
+        },{
+            "name": "Journalism++ Stockholm",
+            "url": "http://jplusplus.se"
+        }],
+        "type": "Blog post, repository",
+        "time": "&ndash;",
+        "level": "Intermediate"
+    },
+    "description": "<p>This code repository and the <a href=\"http://jplusplus.se/covering-election-night-with-r/\">accompanying blog post</a> detail how R and a  set of other tools were used to cover the election night at the Swedish newspaper Aftonbladet. The main advantage of using R, so the author, was that it allowed to be really fast in producing result graphs and spreading them on Twitter, where they attracted great attention.</p>"
 }]
