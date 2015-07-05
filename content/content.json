@@ -409,5 +409,25 @@
         "time": "&ndash;",
         "level": "Intermediate"
     },
-    "description": "<p>This code repository and the <a href=\"http://jplusplus.se/covering-election-night-with-r/\">accompanying blog post</a> detail how R and a  set of other tools were used to cover the election night at the Swedish newspaper Aftonbladet. The main advantage of using R, so the author, was that it allowed to be really fast in producing result graphs and spreading them on Twitter, where they attracted great attention.</p>"
+    "description": "<p>This code repository and the <a href=\"http://jplusplus.se/covering-election-night-with-r/\">accompanying blog post</a> detail how R and a  set of other tools were used to cover the election night at the Swedish newspaper Aftonbladet. The main advantage of using R, so the author, was that it allowed to be really fast in producing result graphs and spreading them on Twitter, where they attracted great attention.   </p>"
+}, {
+    "chapter": "Examples of using R in (data) journalism",
+    "title": "Dual-use arms exports from Switzerland (SRF)",
+    "permalink": "http://www.srfcdn.ch/srf-data/data/2015/seco-dual-use/",
+    "info": {
+        "authors": [{
+            "name": "Timo Grossenbacher",
+            "url": "https://twitter.com/grssnbchr"
+        },{
+            "name": "Julian Schmidli",
+            "url": "https://twitter.com/julianschmidli"
+        },{
+            "name": "SRF Data",
+            "url": "https://twitter.com/srfdata"
+        }],
+        "type": "Blog post, repository",
+        "time": "&ndash;",
+        "level": "Intermediate"
+    },
+    "description": "<p>For a story about exports of dual-use arms from Switzerland to dubious destinations around the world, SRF visualized official governmental data. Since the raw data was in a very messy form, the team used R for preprocessing the data and for initial exploratory analysis. The whole data processing was documented with RMarkdown and <a href=\"http://srfdata.github.io/1503-seco-dual-use-goods/\">published on GitHub pages</a> (only available in German).</p>"
 }]
