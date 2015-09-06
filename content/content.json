@@ -394,6 +394,20 @@
     },
     "description": "<p>RPubs, by RStudio, is an ideal service to publish your knitted RMarkdown files &ndash; helpful if you only want to publish the markdown, but not your actual code files. From within RStudio, you can easily publish the output HTML file to RPubs.com and then share it with the world. All you need to get started is to create an account on RPubs.com. </p>"
 }, {
+    "chapter": "Reproducibility",
+    "title": "A workflow for reproducible and transparent data journalism with R and GitHub",
+    "permalink": "https://github.com/grssnbchr/rddj-reproducibility-workflow",
+    "info": {
+        "authors": [{
+            "name": "Timo Grossenbacher",
+            "url": "https://twitter.com/grssnbchr"
+        }],
+        "type": "Repository",
+        "time": "&ndash;",
+        "level": "Intermediate"
+    },
+    "description": "<p>This repo basically contains an adaptable example on how to prepare your RMarkdown script so that it can be easily &amp; automatically published as a <strong>GitHub Page</strong>. All the code and data of the analysis is zipped and made available as direct download, which might be easier for people who are not familiar with GitHub itself.</p>"
+}, {
     "chapter": "Examples of using R in (data) journalism",
     "title": "Election night at Aftonbladet, 2014",
     "permalink": "https://github.com/jensfinnas/Election-night-at-Aftonbladet",
