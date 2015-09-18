@@ -337,7 +337,25 @@
         "level": "Advanced"
     },
     "description": "<p><code>htmlwidgets</code> is rather a framework than a package like <code>rCharts</code>. If you already know Javascript you can use <code>htmlwidgets</code> to create R bindings, so called \"widgets\", to your favourite library. There already exist <a href=\"http://www.htmlwidgets.org/showcase_leaflet.html\">a range of bindings</a>. Widgets are built so that they can be used at the R console (a functionality which <code>rCharts</code> lacks, as far as I know) and embedded into RMarkdown (and thus into a plain HTML file) or a Shiny web app. There even exists a <a href=\"http://www.buildingwidgets.com\">blog</a> to promote building widgets, with lots of how-to's.</p>"
-}, {
+},
+{
+    "chapter": "Publication-quality graphics",
+	"title": "An Introduction on How to Make Beautiful Charts With R and ggplot2",
+	"permalink": "http://minimaxir.com/2015/02/ggplot-tutorial/",
+    "info": {
+        "authors": [{
+            "name": "Max Woolf",
+            "url": "https://twitter.com/minimaxir"
+        }],
+        "type": "Tutorial",
+        "time": "30 - 50 minutes",
+        "level": "Beginner"
+    },
+    "description": "<p>
+	In this tutorial blog post, the author describes how to use <code>ggplot2</code> to create beautiful charts. It focus on how to tweak ggplot2 default layout to get aesthetically improved charts.
+	</p>"
+},
+{
     "chapter": "Reproducibility",
     "title": "Writing reproducible reports with markdown, <code>knitr</code> and pandoc",
     "permalink": "http://nicercode.github.io/guides/reports/",
