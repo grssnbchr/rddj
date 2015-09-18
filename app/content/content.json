@@ -365,7 +365,25 @@
         "level": "Intermediate"
     },
     "description": "<p>Creating really nice looking (info-)graphics in R? Yes, it is possible. In this impressive blog post, the author uses <code>ggplot2</code> and custom fonts (with the <code>extrafont</code> package) to produce an infographic that nobody would have guessed originates from R &ndash; and all this without using Illustrator or any other vector drawing software. </p>"
-},{
+},
+{
+    "chapter": "Publication-quality graphics",
+	"title": "An introduction on how to make beautiful charts with R and ggplot2",
+	"permalink": "http://minimaxir.com/2015/02/ggplot-tutorial/",
+    "info": {
+        "authors": [{
+            "name": "Max Woolf",
+            "url": "https://twitter.com/minimaxir"
+        }],
+        "type": "Tutorial",
+        "time": "30 - 50 minutes",
+        "level": "Beginner"
+    },
+    "description": "<p>
+	In this tutorial blog post, the author describes how to use <code>ggplot2</code> to create beautiful charts. It focuses on how to tweak the ggplot2 default layout to get aesthetically improved charts.
+	</p>"
+},
+{
     "chapter": "Reproducibility",
     "title": "Writing reproducible reports with markdown, <code>knitr</code> and pandoc",
     "permalink": "http://nicercode.github.io/guides/reports/",
