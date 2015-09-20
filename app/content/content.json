@@ -379,9 +379,7 @@
         "time": "30 - 50 minutes",
         "level": "Beginner"
     },
-    "description": "<p>
-	In this tutorial blog post, the author describes how to use <code>ggplot2</code> to create beautiful charts. It focuses on how to tweak the ggplot2 default layout to get aesthetically improved charts.
-	</p>"
+    "description": "<p>In this tutorial blog post, the author describes how to use <code>ggplot2</code> to create beautiful charts. It focuses on how to tweak the ggplot2 default layout to get aesthetically improved charts.</p>"
 },
 {
     "chapter": "Reproducibility",
