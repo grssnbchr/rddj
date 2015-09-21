@@ -162,7 +162,23 @@
         "level": "Advanced"
     },
     "description": "<p>In this blog post, the guys from DataCamp want to scrape HTML tables from a website. The problem is that these tables are only loaded and generated via Javascript, and not statically. In order to get the data nonetheless, they call an external Javascript file and execute it via <a href=\"http://phantomjs.org/\">PhantomJS</a>, which is basically a WebKit browser without a graphical user interface. The Javascript file loads the website and writes its content into a static HTML file. The rest is done in R: The local HTML file is parsed with the well-known <code>rvest</code> and with the help of some regular expressions.</p><p>I guess the <em>tl;dr</em> of this tutorial is that you can call external scripts from within R using the <code>system()</code> function &ndash; no need to use <code>RSelenium</code> in this case.</p>"
-}, {
+},
+ {
+    "chapter": "Collecting Data (from the Web)",
+    "title": "Ecosystem of R packages to get governement and international open data into R",
+    "permalink": "",
+    "info": {
+        "authors": [{
+            "name": "rOpenGov",
+            "url": "http://ropengov.github.io/"
+        }],
+        "type": "Packages",
+        "time": "&ndash;",
+        "level": "Beginner"
+    },
+    "description": "<p>Here is a collection of R packages to easily work with open government data. It lists various R API clients to get international open datasets (World Bank, Eurostat, FAO), R clients API for news outlets (ProPublica, New York Times), commonly needed data wrangling utilities (geocode, convert country names, ...) and plenty of country-specific APIs (Austria, Finland, Finland, Sweden, USA, India, ...)</p>"}, 
+ 
+ {
     "chapter": "Data cleaning and manipulation",
     "title": "Data tidying",
     "permalink": "http://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html",
@@ -460,4 +476,18 @@
         "level": "Intermediate"
     },
     "description": "<p>For a story about exports of dual-use arms from Switzerland to dubious destinations around the world, SRF visualized official governmental data. Since the raw data was in a very messy form, the team used R for preprocessing the data and for initial exploratory analysis. The whole data processing was documented with RMarkdown and <a href=\"http://srfdata.github.io/1503-seco-dual-use-goods/\">published on GitHub pages</a> (only available in German).</p>"
+}, {
+	"chapter": "Examples of using R in (data) journalism",
+	"title": "How direct democracy has grown over the decades (SWI)",
+	"permalink": "https://github.com/d-qn/heatbarWithRHighcharts",
+    "info": {
+        "authors": [{
+            "name": "Duc-Quang Nguyen",
+            "url": "https://twitter.com/duc_qn"
+        }],
+        "type": "Blog post, repository",
+        "time": "30 minutes",
+        "level": "Intermediate"
+    },
+    "description": "<p>This series of exploratory data visualisations present <a href=\"http://www.swissinfo.ch/eng/explore-600-national-votes_how-direct-democracy-has-grown-over-the-decades/41481992\"> all the nationwide votes in Switzerland since 1848</a>, more than 600 votes. The code repository shows how R can be used to create interactive data visualisation for the web, by leveraging javascript libraries (<code>Highcharts</code> via the R package<code>Rcharts</code>).</p>"
 }]
