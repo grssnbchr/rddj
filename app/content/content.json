@@ -166,7 +166,7 @@
  {
     "chapter": "Collecting Data (from the Web)",
     "title": "Ecosystem of R packages to get governement and international open data into R",
-    "permalink": "",
+    "permalink": "http://ropengov.github.io/",
     "info": {
         "authors": [{
             "name": "rOpenGov",
@@ -489,5 +489,5 @@
         "time": "30 minutes",
         "level": "Intermediate"
     },
-    "description": "<p>This series of exploratory data visualisations present <a href=\"http://www.swissinfo.ch/eng/explore-600-national-votes_how-direct-democracy-has-grown-over-the-decades/41481992\"> all the nationwide votes in Switzerland since 1848</a>, more than 600 votes. The code repository shows how R can be used to create interactive data visualisation for the web, by leveraging javascript libraries (<code>Highcharts</code> via the R package<code>Rcharts</code>).</p>"
+    "description": "<p>This series of exploratory data visualisations presents <a href=\"http://www.swissinfo.ch/eng/explore-600-national-votes_how-direct-democracy-has-grown-over-the-decades/41481992\">all the nationwide votes in Switzerland since 1848</a>, more than 600 votes. The code repository shows how R can be used to create interactive data visualisations for the web by leveraging Javascript libraries (<code>Highcharts</code> via the R package<code>Rcharts</code>).</p>"
 }]
