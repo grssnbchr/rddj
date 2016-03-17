@@ -314,6 +314,20 @@
     },
     "description": "<p>If you have a big data set with many variables and want to go super fancy, i.e., dig for correlations among your variables, scatterplot matrices are the way to go. These, using <code>splom()</code> and other cool stuff like heatmaps are available in the <code>lattice</code> package, which is often faster and easier to use with multidimensional data. This tutorial has got you covered (even if you're not into genetics). But remember: correlation != causation. </p>"
 },{
+  "chapter": "Exploratory data analysis and plotting",
+  "title": "Measuring similarity and distance in data with R",
+  "permalink": "http://journocode.com/2016/03/10/similarity-and-distance-part-1/",
+  "info": {
+      "authors": [{
+          "name": "Kira Schacht",
+          "url": "https://twitter.com/daten_drang"
+      }],
+      "type": "Tutorial",
+      "time": "1 hour",
+      "level": "Intermediate"
+    },
+    "description": "<p>If you want to analyze how similar your data points are to each other, R can help you with measuring distances and visualizing them. In two tutorials, Kira Schacht explains the theory of similarity measures and shows how to implement the calculations in R.</p>"
+},{
     "chapter": "Interactive data visualization",
     "title": "Geting started with Shiny: A web application framework for R",
     "permalink": "http://shiny.rstudio.com",
