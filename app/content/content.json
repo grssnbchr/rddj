@@ -176,8 +176,8 @@
         "time": "&ndash;",
         "level": "Beginner"
     },
-    "description": "<p>Here is a collection of R packages to easily work with open government data. It lists various R API clients to get international open datasets (World Bank, Eurostat, FAO), R clients API for news outlets (ProPublica, New York Times), commonly needed data wrangling utilities (geocode, convert country names, ...) and plenty of country-specific APIs (Austria, Finland, Finland, Sweden, USA, India, ...)</p>"}, 
- 
+    "description": "<p>Here is a collection of R packages to easily work with open government data. It lists various R API clients to get international open datasets (World Bank, Eurostat, FAO), R clients API for news outlets (ProPublica, New York Times), commonly needed data wrangling utilities (geocode, convert country names, ...) and plenty of country-specific APIs (Austria, Finland, Finland, Sweden, USA, India, ...)</p>"},
+
  {
     "chapter": "Data cleaning and manipulation",
     "title": "Data tidying",
@@ -367,6 +367,26 @@
         "level": "Advanced"
     },
     "description": "<p><code>htmlwidgets</code> is rather a framework than a package like <code>rCharts</code>. If you already know Javascript you can use <code>htmlwidgets</code> to create R bindings, so called \"widgets\", to your favourite library. There already exist <a href=\"http://www.htmlwidgets.org/showcase_leaflet.html\">a range of bindings</a>. Widgets are built so that they can be used at the R console (a functionality which <code>rCharts</code> lacks, as far as I know) and embedded into RMarkdown (and thus into a plain HTML file) or a Shiny web app. There even exists a <a href=\"http://www.buildingwidgets.com\">blog</a> to promote building widgets, with lots of how-to's.</p>"
+},{
+    "chapter": "Interactive data visualization",
+    "title": "<code>Leaflet</code>: Create Interactive Web Maps with the JavaScript 'Leaflet' Library",
+    "permalink": "https://rstudio.github.io/leaflet/",
+    "info": {
+      "authors": [{
+          "name": "Hadley Wickham",
+          "url": "https://twitter.com/hadleywickham"
+      },{
+          "name": "Joe Cheng",
+          "url": "https://twitter.com/jcheng"
+      },{
+          "name": "Yihui Xie",
+          "url": "https://twitter.com/xieyihui"
+      }],
+        "type": "Package and Tutorial",
+        "time": "&ndash;",
+        "level": "Intermediate"
+    },
+    "description": "<p>Leaflet is one of the most popular open-source JavaScript libraries for interactive maps. It’s used by websites ranging from The New York Times and The Washington Post to GitHub and Flickr, as well as GIS specialists like OpenStreetMap, Mapbox, and CartoDB. This R package makes it easy to integrate and control Leaflet maps in R.</p>"
 },{
     "chapter": "Publication-quality graphics",
     "title": "How to layout and design an infographic",
