@@ -524,4 +524,27 @@
         "level": "Intermediate"
     },
     "description": "<p>This series of exploratory data visualisations presents <a href=\"http://www.swissinfo.ch/eng/explore-600-national-votes_how-direct-democracy-has-grown-over-the-decades/41481992\">all the nationwide votes in Switzerland since 1848</a>, more than 600 votes. The code repository shows how R can be used to create interactive data visualisations for the web by leveraging Javascript libraries (<code>Highcharts</code> via the R package<code>Rcharts</code>).</p>"
+}, {
+	"chapter": "Examples of using R in (data) journalism",
+	"title": "What happened on the Germanwings flight (NYT)",
+	"permalink": "http://driven-by-data.net/2015/03/24/germanwings.html",
+    "info": {
+      "authors": [{
+          "name": "Gregor Aisch",
+          "url": "https://twitter.com/driven_by_data"
+      },{
+          "name": "Josh Keller",
+          "url": "https://twitter.com/joshkellerjosh"
+      },{
+          "name": "KK Rebecca Lai",
+          "url": "https://twitter.com/kkrebeccalai"
+      },{
+          "name": "Tim Wallace",
+          "url": "https://twitter.com/wallacetim?lang=de"
+      }],
+        "type": "Blog post",
+        "time": "10 minutes",
+        "level": "Intermediate"
+    },
+    "description": "<p>In 2015 when a Germanwings flight from Barcelona, Spain to Düsseldorf, Germany crashed in the French Alps, Gregor Aisch used flight path data from <a href=\"https://www.flightradar24.com/data/aircraft/d-aipx/#5d42675\">Flightradar24</a>and R to visualize the aircraft's height loss. Starting from his R-plot the journalists were able to compare the actual crash to nose-dives and the typical descent.</p>"
 }]
