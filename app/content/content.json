@@ -314,6 +314,20 @@
     },
     "description": "<p>If you have a big data set with many variables and want to go super fancy, i.e., dig for correlations among your variables, scatterplot matrices are the way to go. These, using <code>splom()</code> and other cool stuff like heatmaps are available in the <code>lattice</code> package, which is often faster and easier to use with multidimensional data. This tutorial has got you covered (even if you're not into genetics). But remember: correlation != causation. </p>"
 },{
+  "chapter": "Exploratory data analysis and plotting",
+  "title": "Measuring similarity and distance in data with R",
+  "permalink": "http://journocode.com/2016/03/10/similarity-and-distance-part-1/",
+  "info": {
+      "authors": [{
+          "name": "Kira Schacht",
+          "url": "https://twitter.com/daten_drang"
+      }],
+      "type": "Tutorial",
+      "time": "1 hour",
+      "level": "Intermediate"
+    },
+    "description": "<p>If you want to analyze how similar your data points are to each other, R can help you with measuring distances and visualizing them. In two tutorials, Kira Schacht explains the theory of similarity measures and shows how to implement the calculations in R.</p>"
+},{
     "chapter": "Interactive data visualization",
     "title": "Geting started with Shiny: A web application framework for R",
     "permalink": "http://shiny.rstudio.com",
@@ -473,7 +487,7 @@
         }],
         "type": "Blog post, repository",
         "time": "&ndash;",
-        "level": "Intermediate"
+        "level": "&ndash;"
     },
     "description": "<p>This code repository and the <a href=\"http://jplusplus.se/covering-election-night-with-r/\">accompanying blog post</a> detail how R and a  set of other tools were used to cover the election night at the Swedish newspaper Aftonbladet. The main advantage of using R, so the author, was that it allowed to be really fast in producing result graphs and spreading them on Twitter, where they attracted great attention.   </p>"
 }, {
@@ -493,7 +507,7 @@
         }],
         "type": "Blog post, repository",
         "time": "&ndash;",
-        "level": "Intermediate"
+        "level": "&ndash;"
     },
     "description": "<p>For a story about exports of dual-use arms from Switzerland to dubious destinations around the world, SRF visualized official governmental data. Since the raw data was in a very messy form, the team used R for preprocessing the data and for initial exploratory analysis. The whole data processing was documented with RMarkdown and <a href=\"http://srfdata.github.io/1503-seco-dual-use-goods/\">published on GitHub pages</a> (only available in German).</p>"
 }, {
@@ -507,7 +521,30 @@
         }],
         "type": "Blog post, repository",
         "time": "30 minutes",
-        "level": "Intermediate"
+        "level": "&ndash;"
     },
     "description": "<p>This series of exploratory data visualisations presents <a href=\"http://www.swissinfo.ch/eng/explore-600-national-votes_how-direct-democracy-has-grown-over-the-decades/41481992\">all the nationwide votes in Switzerland since 1848</a>, more than 600 votes. The code repository shows how R can be used to create interactive data visualisations for the web by leveraging Javascript libraries (<code>Highcharts</code> via the R package<code>Rcharts</code>).</p>"
+}, {
+	"chapter": "Examples of using R in (data) journalism",
+	"title": "What happened on the Germanwings flight (NYT)",
+	"permalink": "http://driven-by-data.net/2015/03/24/germanwings.html",
+    "info": {
+      "authors": [{
+          "name": "Gregor Aisch",
+          "url": "https://twitter.com/driven_by_data"
+      },{
+          "name": "Josh Keller",
+          "url": "https://twitter.com/joshkellerjosh"
+      },{
+          "name": "KK Rebecca Lai",
+          "url": "https://twitter.com/kkrebeccalai"
+      },{
+          "name": "Tim Wallace",
+          "url": "https://twitter.com/wallacetim?lang=de"
+      }],
+        "type": "Blog post",
+        "time": "&ndash;",
+        "level": "&ndash;"
+    },
+    "description": "<p>In 2015 when a Germanwings flight from Barcelona, Spain to Düsseldorf, Germany crashed in the French Alps, Gregor Aisch used flight path data from <a href=\"https://www.flightradar24.com/data/aircraft/d-aipx/#5d42675\">Flightradar24</a> and R to visualize the aircraft's height loss. Starting from his R-plot the journalists were able to compare the actual crash to nose-dives and the typical descent.</p>"
 }]
