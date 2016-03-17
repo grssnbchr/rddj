@@ -487,7 +487,7 @@
         }],
         "type": "Blog post, repository",
         "time": "&ndash;",
-        "level": "Intermediate"
+        "level": "&ndash;"
     },
     "description": "<p>This code repository and the <a href=\"http://jplusplus.se/covering-election-night-with-r/\">accompanying blog post</a> detail how R and a  set of other tools were used to cover the election night at the Swedish newspaper Aftonbladet. The main advantage of using R, so the author, was that it allowed to be really fast in producing result graphs and spreading them on Twitter, where they attracted great attention.   </p>"
 }, {
@@ -507,7 +507,7 @@
         }],
         "type": "Blog post, repository",
         "time": "&ndash;",
-        "level": "Intermediate"
+        "level": "&ndash;"
     },
     "description": "<p>For a story about exports of dual-use arms from Switzerland to dubious destinations around the world, SRF visualized official governmental data. Since the raw data was in a very messy form, the team used R for preprocessing the data and for initial exploratory analysis. The whole data processing was documented with RMarkdown and <a href=\"http://srfdata.github.io/1503-seco-dual-use-goods/\">published on GitHub pages</a> (only available in German).</p>"
 }, {
@@ -521,7 +521,7 @@
         }],
         "type": "Blog post, repository",
         "time": "30 minutes",
-        "level": "Intermediate"
+        "level": "&ndash;"
     },
     "description": "<p>This series of exploratory data visualisations presents <a href=\"http://www.swissinfo.ch/eng/explore-600-national-votes_how-direct-democracy-has-grown-over-the-decades/41481992\">all the nationwide votes in Switzerland since 1848</a>, more than 600 votes. The code repository shows how R can be used to create interactive data visualisations for the web by leveraging Javascript libraries (<code>Highcharts</code> via the R package<code>Rcharts</code>).</p>"
 }, {
@@ -543,8 +543,8 @@
           "url": "https://twitter.com/wallacetim?lang=de"
       }],
         "type": "Blog post",
-        "time": "10 minutes",
-        "level": "Intermediate"
+        "time": "&ndash;",
+        "level": "&ndash;"
     },
-    "description": "<p>In 2015 when a Germanwings flight from Barcelona, Spain to Düsseldorf, Germany crashed in the French Alps, Gregor Aisch used flight path data from <a href=\"https://www.flightradar24.com/data/aircraft/d-aipx/#5d42675\">Flightradar24</a>and R to visualize the aircraft's height loss. Starting from his R-plot the journalists were able to compare the actual crash to nose-dives and the typical descent.</p>"
+    "description": "<p>In 2015 when a Germanwings flight from Barcelona, Spain to Düsseldorf, Germany crashed in the French Alps, Gregor Aisch used flight path data from <a href=\"https://www.flightradar24.com/data/aircraft/d-aipx/#5d42675\">Flightradar24</a> and R to visualize the aircraft's height loss. Starting from his R-plot the journalists were able to compare the actual crash to nose-dives and the typical descent.</p>"
 }]
