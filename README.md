@@ -37,7 +37,9 @@ Send me a pull request if you've made changes! I'll integrate them if it makes s
 ## Roadmap
 
 * Add filter options.
-* Remove Bower, add decent package.json.
-* Remove D3 dependecy, or only load base system, if possible.
+* Get rid of Bower.
+* Get rid of Grunt.
+* Use webpack or `npm scripts`.
+* Remove D3 dependecy, or only load base system, if possible (D3 modules with v4).
 * Add date/time field for links (so that, somewhen in the future, old/deprecated links can be removed or deactivated). 
 * Add RSS feed.
