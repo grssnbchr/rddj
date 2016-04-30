@@ -38,5 +38,6 @@ Send me a pull request if you've made changes! I'll integrate them if it makes s
 
 * Add filter options.
 * Remove Bower, add decent package.json.
+* Remove D3 dependecy, or only load base system, if possible.
 * Add date/time field for links (so that, somewhen in the future, old/deprecated links can be removed or deactivated). 
 * Add RSS feed.
