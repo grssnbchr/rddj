@@ -194,6 +194,23 @@
 
  {
     "chapter": "Data cleaning and manipulation",
+    "title": "Easy data validation with the <code>validate</code> package",
+    "permalink": "https://github.com/data-cleaning/validate",
+    "info": {
+        "authors": [{
+            "name": "Mark van der Loo",
+            "url": "https://twitter.com/MarkPJvanderLoo"
+        }, {
+            "name": "Edwin de Jonge",
+            "url": "https://twitter.com/edwindjonge"
+        }],
+        "type": "Package",
+        "time": "-",
+        "level": "Intermediate"
+    },
+    "description": "<p>Data validation is one of the first steps in the data analysis process. This package makes it super-easy to check whether data lives up to expectations you have based on domain knowledge. It works by allowing you to define data validation rules independent of the code or data set - and reuse these rules for other data sets. Next you can confront a dataset, or various versions thereof with the rules. Results can be summarized, plotted, and so on.</p>"
+}, {
+    "chapter": "Data cleaning and manipulation",
     "title": "Data tidying",
     "permalink": "http://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html",
     "info": {
