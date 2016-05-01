@@ -89,7 +89,21 @@
         "level": "Beginner"
     },
     "description": "This guide covers not only syntax but basically everything from getting data into R to basic data visualization with the <code>base</code> and <code>ggplot2</code> packages. It also features a very impressive list of further R resources at the end &ndash; definitely worth checking out."
-}, {
+},{
+    "chapter": "Syntax and basic R programming",
+    "title": "R for Excel users",
+    "permalink": "http://www.rforexcelusers.com/",
+    "info": {
+        "authors": [{
+            "name": "John Taveras",
+            "url": "http://twitter.com/jtaveras"
+        }],
+        "type": "Tutorial",
+        "time": "&ndash;",
+        "level": "Beginner"
+    },
+    "description": "The title says it all:<code>VLOOKUP</code> in R, and stuff. The last argument in favor of Excel just died."
+},{
     "chapter": "Collecting Data (from the Web)",
     "title": "Scraping HTML tables with <code>XML</code>",
     "permalink": "http://giventhedata.blogspot.ch/2012/08/r-and-web-for-beginners-part-iii.html",
