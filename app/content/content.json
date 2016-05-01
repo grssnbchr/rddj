@@ -225,6 +225,20 @@
     "description": "<p>One can consider this and <a href=\"http://vita.had.co.nz/papers/tidy-data.html\">the associated journal paper</a> the Holy Bible of data janitors. In this vignette, Hadley Wickham introduces a way of how data should be structured and formatted in order to be properly analyzed. For tidying messy data, he proposes the use of two packages developed by him, <code>dplyr</code> and <code>tidyr</code>. The latter may be used to easily \"reshape\" data, which is one of the most common data manipulations in R.</p>"
 }, {
     "chapter": "Data cleaning and manipulation",
+    "title": "Working with databases in R",
+    "permalink": "http://datascienceplus.com/working-with-databases-in-r/",
+    "info": {
+        "authors": [{
+            "name": "Fisseha Berhane",
+            "url": "https://twitter.com/FishBerhane"
+        }],
+        "type": "Tutorial",
+        "time": "40 - 60 minutes",
+        "level": "Beginner"
+    },
+    "description": "<p>Sometimes data-journalistic endeavours are so adventureous and complex that they need a database. Guess what? R and databases play nicely together. In this post, data scientist Fisseha Berhane shows how to use <code>dplyr</code> to talk directly to a <code>sqlite</code> database - behind the curtains, the <code>dplyr</code> commands are transformed to SQL. You can even create databases from within R!!!</p>"
+}, {
+    "chapter": "Data cleaning and manipulation",
     "title": "A new data processing workflow for R",
     "permalink": "http://zevross.com/blog/2015/01/13/a-new-data-processing-workflow-for-r-dplyr-magrittr-tidyr-ggplot2/",
     "info": {
