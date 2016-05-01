@@ -432,6 +432,21 @@
     "description": "<p>In this tutorial blog post, the author describes how to use <code>ggplot2</code> to create beautiful charts. It focuses on how to tweak the ggplot2 default layout to get aesthetically improved charts.</p>"
 },
 {
+    "chapter": "Publication-quality graphics",
+    "title": "Supreme Annotations",
+    "permalink": "https://rud.is/b/2016/03/16/supreme-annotations/",
+    "info": {
+        "authors": [{
+            "name": "Bob Rudis",
+            "url": "https://twitter.com/hrbrmstr"
+        }],
+        "type": "Tutorial",
+        "time": "30 - 50 minutes",
+        "level": "Intermediate"
+    },
+    "description": "<p>Custom plot annotations FTW: A feature that is increasingly used in static and interactive news charts on the web and in print. With this tutorial, Bob Rudis shows a <code>ggplot2</code> \"hack\" (that has been already incorporated into the master branch of said charting package) for easily annotating points (for example in a scatter plot) with labels. His fork also introduces subtitles and below-plot-captions. In his tutorial, Bob Rudis shows how to reproduce a chart by the Pew Research Center in a couple of steps (hint: the R version looks even better).</p>"
+},
+{
     "chapter": "Reproducibility",
     "title": "Writing reproducible reports with markdown, <code>knitr</code> and pandoc",
     "permalink": "http://nicercode.github.io/guides/reports/",
@@ -492,12 +507,15 @@
     "description": "<p>This code repository and the <a href=\"http://jplusplus.se/covering-election-night-with-r/\">accompanying blog post</a> detail how R and a  set of other tools were used to cover the election night at the Swedish newspaper Aftonbladet. The main advantage of using R, so the author, was that it allowed to be really fast in producing result graphs and spreading them on Twitter, where they attracted great attention.   </p>"
 }, {
     "chapter": "Examples of using R in (data) journalism",
-    "title": "Dual-use arms exports from Switzerland (SRF)",
-    "permalink": "http://www.srfcdn.ch/srf-data/data/2015/seco-dual-use/",
+    "title": "SRF Data portfolio & code collection (SRF)",
+    "permalink": "http://srfdata.github.io",
     "info": {
         "authors": [{
             "name": "Timo Grossenbacher",
             "url": "https://twitter.com/grssnbchr"
+        },{
+            "name": "Angelo Zehr",
+            "url": "https://twitter.com/angelozehr"
         },{
             "name": "Julian Schmidli",
             "url": "https://twitter.com/julianschmidli"
@@ -509,7 +527,7 @@
         "time": "&ndash;",
         "level": "&ndash;"
     },
-    "description": "<p>For a story about exports of dual-use arms from Switzerland to dubious destinations around the world, SRF visualized official governmental data. Since the raw data was in a very messy form, the team used R for preprocessing the data and for initial exploratory analysis. The whole data processing was documented with RMarkdown and <a href=\"http://srfdata.github.io/1503-seco-dual-use-goods/\">published on GitHub pages</a> (only available in German).</p>"
+    "description": "<p><a href=\"http://www.srf.ch/data\">SRF Data</a> is the data-driven journalism team at Swiss Public Broadcast SRF. The team publishes most of its analyses - which are usually done in R - on a GitHub page. Knitted RMarkdown files are shown on the GitHub page, but the whole code, including input data, is also available in separate GitHub repos.</p>"
 }, {
 	"chapter": "Examples of using R in (data) journalism",
 	"title": "How direct democracy has grown over the decades (SWI)",
