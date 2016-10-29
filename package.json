@@ -9,6 +9,7 @@
     "type": "git",
     "url": "https://github.com/grssnbchr/rddj.git"
   },
+  "license": "MIT",
   "devDependencies": {
     "apache-server-configs": "^2.7.1",
     "grunt": "^1.0.0",
