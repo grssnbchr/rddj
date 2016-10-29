@@ -43,7 +43,6 @@ Send me a pull request if you've made changes! I'll integrate them if it makes s
 * Remove D3 dependecy, or only load base system, if possible (D3 modules with v4).
 * Add date/time field for links (so that, somewhen in the future, old/deprecated links can be removed or deactivated). 
 * Add RSS feed.
-* Add SSL.
 
 ## Link checks
 
