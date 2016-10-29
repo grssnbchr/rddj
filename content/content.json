@@ -199,7 +199,7 @@
     "info": {
         "authors": [{
             "name": "Mark van der Loo",
-            "url": "https://twitter.com/MarkPJvanderLoo"
+            "url": "https://twitter.com/markvdloo"
         }, {
             "name": "Edwin de Jonge",
             "url": "https://twitter.com/edwindjonge"
@@ -389,7 +389,7 @@
 },{
     "chapter": "Interactive data visualization",
     "title": "<code>rCharts</code>: Interactive Javascript visualizations with familiar libraries",
-    "permalink": "http://rcharts.io",
+    "permalink": "http://ramnathv.github.io/rCharts",
     "info": {
         "authors": [{
             "name": "Ramnath Vaidyanathan",
@@ -399,7 +399,7 @@
         "time": "&ndash;",
         "level": "Intermediate"
     },
-    "description": "<p>This package allows you to create interactive charts in a <code>lattice</code>-style manner from within R. You can choose from a variety of Javascript visualization libraries such as <a href=\"http://www.highcharts.com/\">HighCharts</a>, <a href=\"http://nvd3.org/\">NVD3</a>, or even <a href=\"http://leafletjs.com/\">LeafletJS</a>, all using the same interface. The charts can then be published via a variety of options: As a Gist (see this <a href=\"http://rcharts.io/viewer/?e32bb4ea1f33b5fa70c8#.VSjuk8u42ll\">example</a>), inside a <a href=\"http://shiny.rstudio.com/\">Shiny application</a> (see <a href=\"http://rcharts.io/nytinteractive/\">this example</a> on replicating a NYT graphic), or <a href=\"http://stackoverflow.com/questions/17168464/2-knitr-r-markdown-rstudio-issues-highcharts-and-morris-js/17176191#17176191\">as a good old HTML file</a>, using <code>knit2html</code> and RMarkdown.</p>"
+    "description": "<p>This package allows you to create interactive charts in a <code>lattice</code>-style manner from within R. You can choose from a variety of Javascript visualization libraries such as <a href=\"http://www.highcharts.com/\">HighCharts</a>, <a href=\"http://nvd3.org/\">NVD3</a>, or even <a href=\"http://leafletjs.com/\">LeafletJS</a>, all using the same interface. The charts can then be published via a variety of options: As a Gist, inside a <a href=\"http://shiny.rstudio.com/\">Shiny application</a>, or <a href=\"http://stackoverflow.com/questions/17168464/2-knitr-r-markdown-rstudio-issues-highcharts-and-morris-js/17176191#17176191\">as a good old HTML file</a>, using <code>knit2html</code> and RMarkdown.</p>"
 },{
     "chapter": "Interactive data visualization",
     "title": "<code>htmlwidgets</code>: A package/framework for developing R bindings to Javascript libraries",
@@ -609,5 +609,5 @@
         "time": "&ndash;",
         "level": "&ndash;"
     },
-    "description": "<p>In 2015 when a Germanwings flight from Barcelona, Spain to Düsseldorf, Germany crashed in the French Alps, Gregor Aisch used flight path data from <a href=\"https://www.flightradar24.com/data/aircraft/d-aipx/#5d42675\">Flightradar24</a> and R to visualize the aircraft's height loss. Starting from his R-plot the journalists were able to compare the actual crash to nose-dives and the typical descent.</p>"
+    "description": "<p>In 2015 when a Germanwings flight from Barcelona, Spain to Düsseldorf, Germany crashed in the French Alps, Gregor Aisch used flight path data from <a href=\"https://www.flightradar24.com/\">Flightradar24</a> and R to visualize the aircraft's height loss. Starting from his R-plot the journalists were able to compare the actual crash to nose-dives and the typical descent.</p>"
 }]
