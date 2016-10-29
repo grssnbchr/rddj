@@ -49,3 +49,7 @@ Send me a pull request if you've made changes! I'll integrate them if it makes s
 All links work as of:
 
 * October 29th, 2016
+
+## SSL
+
+Site uses SSL as suggested by https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/
