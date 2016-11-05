@@ -300,6 +300,23 @@
     },
     "description": "<p>At least for me, working with dates and times in R has always been a hassle. For example, I still don't get the actual difference between <code>as.Date()</code>, <code>as.POSIXlt()</code> and <code>as.POSIXct()</code>. <code>lubridate</code> might still require some basic knowledge of date/time types in R, but makes working with, for example, time intervals much more intuitive. Give it a try.</p>"
 }, {
+    "chapter": "Text mining / natural language processing",
+    "title": "<code>tidytext</code>: Text mining using <code>dplyr</code>, <code>ggplot2</code>, and other tidy tools",
+    "permalink": "https://github.com/juliasilge/tidytext",
+    "info": {
+        "authors": [{
+            "name": "Julia Silge",
+            "url": "https://twitter.com/juliasilge"
+        }, {
+            "name": "David Robinson",
+            "url": "https://twitter.com/drob"
+        }],
+        "type": "Package",
+        "time": "&ndash;",
+        "level": "Intermediate"
+    },
+    "description": "<p>If you know and love the <a href=\"http://vita.had.co.nz/papers/tidy-data.html\">tidy data principle</a> by Hadley Wickham as much as I do and want to apply it to text mining, this package is for you. Basically, it is an interface to existing tidy-data-oriented packages like <code>dplyr</code> and <code>ggplot2</code> and allows to combine traditional text mining packages/algorithms with the former. See the <a href=\"http://juliasilge.com/blog/Life-Changing-Magic/\">announcement on Julia Silge's blog</a> for more background info and some examples. This post is also a good tutorial for anyone wanting to get started in text mining.</p>"
+}, {
     "chapter": "Exploratory data analysis and plotting",
     "title": "Getting started with charts",
     "permalink": "http://flowingdata.com/2012/12/17/getting-started-with-charts-in-r/",
