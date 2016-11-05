@@ -13,6 +13,20 @@
     },
     "description": "RStudio is the R user's Integrated Development Environment (IDE) of choice, there is no doubt about that. Installing it is really straightforward, just go to <a href=\"http://www.rstudio.org/download/\">http://www.rstudio.org/download/</a> and download your OS version. If you need more information, this freely available book chapter by Safari Books Online gives a really thorough introduction into what RStudio actually is, why you should use it, and how it integrates with R."
 }, {
+    "chapter": "RStudio",
+    "title": "RStudio IDE cheat sheet",
+    "permalink": "https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf",
+    "info": {
+        "authors": [{
+            "name": "RStudio",
+            "url": "http://www.rstudio.com"
+        }],
+        "type": "Cheat sheet",
+        "time": "&ndash;",
+        "level": "Beginner"
+    },
+    "description": "With the <a href=\"https://blog.rstudio.org/2016/11/01/announcing-rstudio-v1-0/\">release of RStudio v1.0</a>, creating R scripts has never been easier. RStudio nowadays supports a lot of features like multiple cursors and code completion that developers familiar with other IDEs such as Sublime will love. Boost your productivity in RStudio with the official cheat sheet!"
+}, {
     "chapter": "Syntax and basic R programming",
     "title": "Try R (CodeSchool)",
     "permalink": "http://tryr.codeschool.com",
