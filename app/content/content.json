@@ -348,6 +348,26 @@
     },
     "description": "<p>Anybody who's into or wants to go into text mining needs to stem and tokenize words sooner than later. The <code>hunspell</code> package ports the widely-used spell checker library with the same name to R. Probably a good utility for doing text mining and NLP in R. See <a href=\"https://cloud.r-project.org/web/packages/hunspell/vignettes/intro.html\">this vignette</a> for getting started.</p>"
 }, {
+    "chapter": "Text mining / natural language processing",
+    "title": "<code>tm</code>: Text mining infrastructure in R",
+    "permalink": "https://www.jstatsoft.org/article/view/v025i05",
+    "info": {
+        "authors": [{
+            "name": "Ingo Feinerer",
+            "url": ""
+        },{
+            "name": "Kurt Hornik",
+            "url": ""
+        },{
+            "name": "David Meyer",
+            "url": ""
+        }],
+        "type": "Package",
+        "time": "&ndash;",
+        "level": "Advanced"
+    },
+    "description": "<p>Although not a new kid on the block, <code>tm</code> is the de-facto-standard for text mining in R. If you ever want to start an arbitrarily complex text mining project, you won't come around this package. And in order to get the grasp of it, it's best to first read the seminal paper \"Text mining infrastructure in R\" by the authors of the package - that's why I link directly to that paper, published in the Journal of Statistical Software.</p>"
+}, {
     "chapter": "Exploratory data analysis and plotting",
     "title": "Getting started with charts",
     "permalink": "http://flowingdata.com/2012/12/17/getting-started-with-charts-in-r/",
