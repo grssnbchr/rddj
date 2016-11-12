@@ -13,6 +13,20 @@
     },
     "description": "RStudio is the R user's Integrated Development Environment (IDE) of choice, there is no doubt about that. Installing it is really straightforward, just go to <a href=\"http://www.rstudio.org/download/\">http://www.rstudio.org/download/</a> and download your OS version. If you need more information, this freely available book chapter by Safari Books Online gives a really thorough introduction into what RStudio actually is, why you should use it, and how it integrates with R."
 }, {
+    "chapter": "RStudio",
+    "title": "RStudio IDE cheat sheet",
+    "permalink": "https://www.rstudio.com/wp-content/uploads/2016/01/rstudio-IDE-cheatsheet.pdf",
+    "info": {
+        "authors": [{
+            "name": "RStudio",
+            "url": "http://www.rstudio.com"
+        }],
+        "type": "Cheat sheet",
+        "time": "&ndash;",
+        "level": "Beginner"
+    },
+    "description": "With the <a href=\"https://blog.rstudio.org/2016/11/01/announcing-rstudio-v1-0/\">release of RStudio v1.0</a>, creating R scripts has never been easier. RStudio nowadays supports a lot of features like multiple cursors and code completion that developers familiar with other IDEs such as Sublime will love. Boost your productivity in RStudio with the official cheat sheet!"
+}, {
     "chapter": "Syntax and basic R programming",
     "title": "Try R (CodeSchool)",
     "permalink": "http://tryr.codeschool.com",
@@ -285,6 +299,74 @@
         "level": "Beginner"
     },
     "description": "<p>At least for me, working with dates and times in R has always been a hassle. For example, I still don't get the actual difference between <code>as.Date()</code>, <code>as.POSIXlt()</code> and <code>as.POSIXct()</code>. <code>lubridate</code> might still require some basic knowledge of date/time types in R, but makes working with, for example, time intervals much more intuitive. Give it a try.</p>"
+}, {
+    "chapter": "Data cleaning and manipulation",
+    "title": "<code>tidyverse</code>",
+    "permalink": "https://github.com/tidyverse/tidyverse",
+    "info": {
+        "authors": [{
+            "name": "Hadley Wickham",
+            "url": "http://twitter.com/hadleywickham"
+        }, {
+            "name": "others",
+            "url": "https://github.com/tidyverse"
+        }],
+        "type": "Package",
+        "time": "-",
+        "level": "Intermediate"
+    },
+    "description": "<p>In September 2016, Hadley Wickham <a href=\"https://blog.rstudio.org/2016/09/15/tidyverse-1-0-0/\">announced a new sort of meta package</a> that combines all the packages from the – no pun intended – \"Hadleyverse\", e.g. <code>tidyr</code>, <code>dplyr</code> or <code>ggplot2</code>. Additionally, the \"tidyverse\" includes packages for loading data from all formats and connecting to databases, etc. <code>tidyverse</code> makes sure that you always have up-to-date versions of packages that work nicely together. Very handy!</p>"
+}, {
+    "chapter": "Text mining / natural language processing",
+    "title": "<code>tidytext</code>: Text mining using <code>dplyr</code>, <code>ggplot2</code>, and other tidy tools",
+    "permalink": "https://github.com/juliasilge/tidytext",
+    "info": {
+        "authors": [{
+            "name": "Julia Silge",
+            "url": "https://twitter.com/juliasilge"
+        }, {
+            "name": "David Robinson",
+            "url": "https://twitter.com/drob"
+        }],
+        "type": "Package",
+        "time": "&ndash;",
+        "level": "Intermediate"
+    },
+    "description": "<p>If you know and love the <a href=\"http://vita.had.co.nz/papers/tidy-data.html\">tidy data principle</a> by Hadley Wickham as much as I do and want to apply it to text mining, this package is for you. Basically, it is an interface to existing tidy-data-oriented packages like <code>dplyr</code> and <code>ggplot2</code> and allows to combine traditional text mining packages/algorithms with the former. See the <a href=\"http://juliasilge.com/blog/Life-Changing-Magic/\">announcement on Julia Silge's blog</a> for more background info and some examples. This post is also a good tutorial for anyone wanting to get started in text mining.</p>"
+}, {
+    "chapter": "Text mining / natural language processing",
+    "title": "<code>hunspell</code>: high-performance stemmer, tokenizer, and spell checker for R",
+    "permalink": "https://github.com/ropensci/hunspell",
+    "info": {
+        "authors": [{
+            "name": "Jeroen Ooms",
+            "url": "https://twitter.com/opencpu"
+        }],
+        "type": "Package",
+        "time": "&ndash;",
+        "level": "Intermediate"
+    },
+    "description": "<p>Anybody who's into or wants to go into text mining needs to stem and tokenize words sooner than later. The <code>hunspell</code> package ports the widely-used spell checker library with the same name to R. Probably a good utility for doing text mining and NLP in R. See <a href=\"https://cloud.r-project.org/web/packages/hunspell/vignettes/intro.html\">this vignette</a> for getting started.</p>"
+}, {
+    "chapter": "Text mining / natural language processing",
+    "title": "<code>tm</code>: Text mining infrastructure in R",
+    "permalink": "https://www.jstatsoft.org/article/view/v025i05",
+    "info": {
+        "authors": [{
+            "name": "Ingo Feinerer",
+            "url": ""
+        },{
+            "name": "Kurt Hornik",
+            "url": ""
+        },{
+            "name": "David Meyer",
+            "url": ""
+        }],
+        "type": "Package",
+        "time": "&ndash;",
+        "level": "Advanced"
+    },
+    "description": "<p>Although not a new kid on the block, <code>tm</code> is the de-facto-standard for text mining in R. If you ever want to start an arbitrarily complex text mining project, you won't come around this package. And in order to get the grasp of it, it's best to first read the seminal paper \"Text mining infrastructure in R\" by the authors of the package - that's why I link directly to that paper, published in the Journal of Statistical Software.</p>"
 }, {
     "chapter": "Exploratory data analysis and plotting",
     "title": "Getting started with charts",
