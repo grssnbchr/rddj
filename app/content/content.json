@@ -369,6 +369,20 @@
     "description": "<p>Although not a new kid on the block, <code>tm</code> is the de-facto-standard for text mining in R. If you ever want to start an arbitrarily complex text mining project, you won't come around this package. And in order to get the grasp of it, it's best to first read the seminal paper \"Text mining infrastructure in R\" by the authors of the package - that's why I link directly to that paper, published in the Journal of Statistical Software.</p>"
 }, {
     "chapter": "Exploratory data analysis and plotting",
+    "title": "Data analysis in R",
+    "permalink": "http://paldhous.github.io/NICAR/2017/r-analysis.html",
+    "info": {
+        "authors": [{
+            "name": "Peter Aldhous",
+            "url": "https://twitter.com/paldhous"
+        }],
+        "type": "Tutorial",
+        "time": "120 - 180 minutes",
+        "level": "Intermediate"
+    },
+    "description": "<p>This tutorial was given by data journalist Peter Aldhous during <a href=\"https://www.ire.org/events-and-training/event/2702/\">NICAR17</a>, so it is especially tailored for (data) journalists. Also, the modern approach with a combination of <a href = \"http://tidyverse.org\"><code>tidyverse</code></a> packages like <code>dplyr</code> and <code>ggplot2</code> and the use of relevant data sets (including some on the California county level) makes this a good entry point for journalists wanting to get to know R, as Peter also explains some of the very basics of R, such as its syntax.</p>"
+}, {
+    "chapter": "Exploratory data analysis and plotting",
     "title": "Getting started with charts",
     "permalink": "http://flowingdata.com/2012/12/17/getting-started-with-charts-in-r/",
     "info": {
@@ -508,6 +522,20 @@
         "level": "Advanced"
     },
     "description": "<p><code>htmlwidgets</code> is rather a framework than a package like <code>rCharts</code>. If you already know Javascript you can use <code>htmlwidgets</code> to create R bindings, so called \"widgets\", to your favourite library. There already exist <a href=\"http://www.htmlwidgets.org/showcase_leaflet.html\">a range of bindings</a>. Widgets are built so that they can be used at the R console (a functionality which <code>rCharts</code> lacks, as far as I know) and embedded into RMarkdown (and thus into a plain HTML file) or a Shiny web app. There even exists a <a href=\"http://www.buildingwidgets.com\">blog</a> to promote building widgets, with lots of how-to's.</p>"
+},{
+    "chapter": "Interactive data visualization",
+    "title": "From R to interactive charts and maps",
+    "permalink": "http://paldhous.github.io/NICAR/2017/r-to-javascript.html",
+    "info": {
+        "authors": [{
+            "name": "Peter Aldhous",
+            "url": "https://twitter.com/paldhous"
+        }],
+        "type": "Tutorial",
+        "time": "120 - 180 minutes",
+        "level": "Intermediate"
+    },
+    "description": "<p>In this hands-on tutorial given by data journalist Peter Aldhous during <a href=\"https://www.ire.org/events-and-training/event/2702/\">NICAR17</a>, a concrete use case for <code>htmlwidgets</code> is established. Peter uses the framework in combination with the <code>highcharter</code>, <code>leaflet</code>, <code>dygraphs</code> and <code>DT</code> packages to produce interactive charts, maps, time series and data tables, respectively. Keep in mind that Peter is a journalist working for Buzzfeed, so he showcases some of the work he did and focuses on the rapid production of charts on a deadline. Exactly what R was meant for ;-).</p>"
 },{
     "chapter": "Interactive data visualization",
     "title": "<code>Leaflet</code>: Create Interactive Web Maps with the JavaScript 'Leaflet' Library",
@@ -692,4 +720,42 @@
         "level": "&ndash;"
     },
     "description": "<p>In 2015 when a Germanwings flight from Barcelona, Spain to Düsseldorf, Germany crashed in the French Alps, Gregor Aisch used flight path data from <a href=\"https://www.flightradar24.com/\">Flightradar24</a> and R to visualize the aircraft's height loss. Starting from his R-plot the journalists were able to compare the actual crash to nose-dives and the typical descent.</p>"
+}, {
+    "chapter": "Examples of using R in (data) journalism",
+    "title": "What happened on the Germanwings flight (NYT)",
+    "permalink": "http://driven-by-data.net/2015/03/24/germanwings.html",
+    "info": {
+      "authors": [{
+          "name": "Gregor Aisch",
+          "url": "https://twitter.com/driven_by_data"
+      },{
+          "name": "Josh Keller",
+          "url": "https://twitter.com/joshkellerjosh"
+      },{
+          "name": "KK Rebecca Lai",
+          "url": "https://twitter.com/kkrebeccalai"
+      },{
+          "name": "Tim Wallace",
+          "url": "https://twitter.com/wallacetim?lang=de"
+      }],
+        "type": "Blog post",
+        "time": "&ndash;",
+        "level": "&ndash;"
+    },
+    "description": "<p>In 2015 when a Germanwings flight from Barcelona, Spain to Düsseldorf, Germany crashed in the French Alps, Gregor Aisch used flight path data from <a href=\"https://www.flightradar24.com/\">Flightradar24</a> and R to visualize the aircraft's height loss. Starting from his R-plot the journalists were able to compare the actual crash to nose-dives and the typical descent.</p>"
+},
+{
+    "chapter": "Examples of using R in (data) journalism",
+    "title": "Visualizing the Clinton Email Network in R",
+    "permalink": "https://rud.is/projects/clinton_emails_01.html",
+    "info": {
+        "authors": [{
+            "name": "Bob Rudis",
+            "url": "https://twitter.com/hrbrmstr"
+        }],
+        "type": "Tutorial",
+        "time": "20 - 30 minutes",
+        "level": "Intermediate"
+    },
+    "description": "<p>In this post, Bob Rudis takes Clinton's Email data published by the Wall Street Journal and visualizes the network of senders and recipients. He also does some basic network analysis like computing a centrality score. In the end, he uses a package that builds on <code>ggplot2</code> to visualize the network. A technique that might come in handy for journalists wanting to work with (future) Email leaks.</p>"
 }]
