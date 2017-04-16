@@ -37,6 +37,7 @@ Send me a pull request if you've made changes! I'll integrate them if it makes s
 ## Roadmap
 
 * Add filter options.
+* Add date to links in order to sort them by age.
 * Get rid of Bower.
 * Get rid of Grunt.
 * Use Markdown instead of JSON
