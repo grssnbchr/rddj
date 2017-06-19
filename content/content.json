@@ -758,4 +758,19 @@
         "level": "Intermediate"
     },
     "description": "<p>In this post, Bob Rudis takes Clinton's Email data published by the Wall Street Journal and visualizes the network of senders and recipients. He also does some basic network analysis like computing a centrality score. In the end, he uses a package that builds on <code>ggplot2</code> to visualize the network. A technique that might come in handy for journalists wanting to work with (future) Email leaks.</p>"
+},
+{
+    "chapter": "Examples of using R in (data) journalism",
+    "title": "How Jared Kushner built a luxury skyscraper using loans meant for job-starved areas",
+    "permalink": "https://github.com/wpinvestigative/kushner_eb5_census",
+    "info": {
+        "authors": [{
+            "name": "Andrew Tran",
+            "url": "https://twitter.com/abtran"
+        }],
+        "type": "News article, repository",
+        "time": "30 minutes",
+        "level": "Intermediate"
+    },
+    "description": "<p>Jared Kushner and his partners used a program meant for job-starved areas to build a luxury skyscraper. Andrew Tran used R code to investigate and create illustrations.</p>"
 }]
