@@ -1,3 +1,12 @@
+# DEPRECATION NOTICE
+
+This project hasn't been maintained since more than two years. Apparently, somebody hijacked the domain rddj.info (probably for advertising purposes). I am no longer affiliated with it. 
+
+However, you might still able to find valuable resources in `content/content.json`.
+
+
+
+
 # .Rddj
 ## Resources for doing data journalism with R. 
 
